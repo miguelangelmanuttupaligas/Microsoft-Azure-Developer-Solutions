@@ -54,7 +54,7 @@
 ### **Compatibilidad integrada con el escalado automático**
 - Escalado vertical (Mejora en App Service)
 - Escalado horizontal (Creación de más instancias en el mismo App Service)
-**El escalado se aplica en la MÁQUINA SUBYACENTE en la que se hospeda la App Web**  
+**El escalado se aplica a más MÁQUINAS SUBYACENTES en la que se hospeda la App Web**  
 Los recursos a escalar son:
 - Número de núcleos
 - Cantidad de RAM
@@ -70,7 +70,7 @@ Los recursos a escalar son:
 **Plan Estándar, Premium o Aislado de App Service**
 - Espacios aislados (incluido ranura de producción)
 - Cada ranura es una aplicación activa con nombre de host propio
-- Elementos de contenido y configuración de aplicaciones pueden ser intercambios entre ranuras de implementación
+- Elementos de contenido y configuración de aplicaciones pueden ser intercambiados entre ranuras de implementación
 
 ### **App Service en Linux**
 - Contenedores de Linux personalizados (Web App for Containers)
